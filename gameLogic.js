@@ -103,6 +103,7 @@ function checkWinner() {
             options[i].disabled = true;
         }
         retry.style.display = 'inline-block';
+        retry.innerText = "REPLAY";
         
     }
     else if(computerScore.innerText.length >= 9) {
@@ -111,5 +112,6 @@ function checkWinner() {
             options[i].disabled = true;
         }
         retry.style.display = 'inline-block';
+        retry.innerText = "RETRY";
     }
 }
