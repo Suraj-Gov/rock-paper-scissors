@@ -1,0 +1,116 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: white;
+    user-select: none;
+}
+
+html {
+    touch-action: manipulation;
+}
+
+.main-container {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 1em;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1px 1px rgb(58, 58, 58),
+                 2px 2px rgb(58, 58, 58),
+                 3px 3px rgb(58, 58, 58),
+                 4px 4px rgb(58, 58, 58);
+
+}
+
+.game-container {
+    margin: 0 auto;
+    max-width: 50em;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.player, .computer {
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.result-container {
+    position: absolute;
+    left: 0; right: 0;
+}
+
+.options-container {
+    margin: 1em;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.option-button {
+    width: 30%;
+    height: 3em;
+    margin: 1.5%;
+    border-radius: 1em;
+    font-size: 1em;
+    border: 2px solid darkgray;
+    background-color: rgb(77, 77, 77);
+    text-transform: uppercase;
+    font-family: 'Proxima Nova', sans-serif;
+    color: white;
+}
+
+.option-button:focus {
+    outline: 0;
+}
+
+.option-button:active {
+    background-color: rgb(49, 49, 49);
+}
+
+.retry {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retry-button {
+    width: 50%;
+    height: 3em;
+    margin: 1.5%;
+    border-radius: 1em;
+    font-size: 1.3em;
+    border: 2px solid darkgray;
+    background-color: rgb(177, 177, 177);
+    text-transform: uppercase;
+    font-family: 'Proxima Nova', sans-serif;
+    color: black;
+}
+
+.retry-button:focus {
+    outline: 0;
+}
+
+.retry-button:active {
+    background-color: rgb(97, 97, 97);
+}
