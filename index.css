@@ -4,6 +4,7 @@
     background-color: #121212;
     color: white;
     user-select: none;
+    font-family: 'Signika', sans-serif;;
 }
 
 html {
@@ -21,14 +22,14 @@ html {
 }
 
 h1 {
-    font-family: 'Proxima Nova', sans-serif;
     margin: 1em;
-    font-size: 2em;
+    font-size: 2.1em;
     text-align: center;
     text-shadow: 1px 1px rgb(58, 58, 58),
                  2px 2px rgb(58, 58, 58),
                  3px 3px rgb(58, 58, 58),
                  4px 4px rgb(58, 58, 58);
+    font-weight: 600;
 
 }
 
@@ -46,12 +47,12 @@ h1 {
 
 h3 {
     text-align: center;
-    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
 }
 
 h2 {
     text-align: center;
-    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
 }
 
 .result-container {
@@ -67,6 +68,7 @@ h2 {
 }
 
 .option-button {
+    font-weight: 400;
     width: 30%;
     height: 3em;
     margin: 1.5%;
@@ -75,7 +77,6 @@ h2 {
     border: 2px solid darkgray;
     background-color: rgb(77, 77, 77);
     text-transform: uppercase;
-    font-family: 'Proxima Nova', sans-serif;
     color: white;
 }
 
@@ -96,6 +97,7 @@ h2 {
 
 .retry-button {
     width: 50%;
+    font-weight: 400;
     height: 3em;
     margin: 1.5%;
     border-radius: 1em;
@@ -103,7 +105,6 @@ h2 {
     border: 2px solid darkgray;
     background-color: rgb(177, 177, 177);
     text-transform: uppercase;
-    font-family: 'Proxima Nova', sans-serif;
     color: black;
 }
 
