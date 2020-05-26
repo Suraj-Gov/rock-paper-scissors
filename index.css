@@ -116,7 +116,7 @@ h2 {
 }
 
 .retry-button {
-  width: 50%;
+  width: 80%;
   font-weight: 400;
   height: 3em;
   margin: 1.5%;
@@ -126,7 +126,7 @@ h2 {
   background-color: rgb(177, 177, 177);
   text-transform: uppercase;
   color: black;
-  transition: opacity 0.5s;
+  transition: 0.5s;
 }
 
 .retry-button:focus {

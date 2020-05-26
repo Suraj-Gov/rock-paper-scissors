@@ -127,6 +127,6 @@ function checkWinner() {
       options[i].disabled = true;
     }
     retry.style.display = "inline-block";
-    retry.innerText = "RETRY";
+    retry.innerText = "HOLD TO RETRY";
   }
 }
