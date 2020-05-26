@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors!</title>
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <div class="main-container">
-        <div class="header">
-            <h1>Rock Paper Scissors</h1>
+      <div class="header">
+        <h1>Rock Paper Scissors</h1>
+      </div>
+      <div class="game-container">
+        <div class="player">
+          <h3>Player</h3>
+          <h3 class="player-score">Score:</h3>
+          <img id="player-image" src="./Blank.svg" />
         </div>
-        <div class="game-container">
-            <div class="player">
-                <h3>Player</h3>
-                <h3 class="player-score">Score:</h3>
-                <img id="player-image" src="./Blank.svg">
-            </div>
-            <div class="computer">
-                <h3>Computer</h3>
-                <h3 class="computer-score">Score:</h3>
-                <img id="computer-image" src="./Blank.svg">
-            </div>
+        <div class="computer">
+          <h3>Computer</h3>
+          <h3 class="computer-score">Score:</h3>
+          <img id="computer-image" src="./Blank.svg" />
         </div>
-        <div class="result-container">
-            <h2 class="result"></h2>
-        </div>
-        <div class="options-container">
-            <button class="option-button" value="rock">Rock</button>
-            <button class="option-button" value="scissors">Scissors</button>
-            <button class="option-button" value="paper">Paper</button>
-        </div>
-        <div class="retry">
-            <button class="retry-button">Retry</button>
-        </div>
+      </div>
+      <div class="result-container">
+        <h2 class="result"></h2>
+      </div>
+      <div class="options-container">
+        <button class="option-button" value="rock">Rock</button>
+        <button class="option-button" value="scissors">Scissors</button>
+        <button class="option-button" value="paper">Paper</button>
+      </div>
+      <div class="retry">
+        <button class="retry-button">Hold to Retry</button>
+      </div>
     </div>
     <script src="./gameLogic.js"></script>
-</body>
+  </body>
 </html>
