@@ -15,7 +15,7 @@ const retry = document.querySelector(".retry-button");
 //   }, 350);
 // });
 
-retry.addEventListener("animationend", () => {
+retry.addEventListener("transitionend", () => {
   newGame();
 });
 
