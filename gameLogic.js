@@ -15,7 +15,7 @@ const retry = document.querySelector(".retry-button");
 //   }, 350);
 // });
 
-retry.addEventListener("transitionend", () => {
+retry.addEventListener("animationend", () => {
   newGame();
 });
 
@@ -122,13 +122,13 @@ function checkWinner() {
       options[i].disabled = true;
     }
     retry.style.display = "block";
-    retry.innerText = "HOLD TO RETRY";
+    retry.innerText = "RETRY";
   } else if (computerScore.innerText.length >= 9) {
     result.innerText = "You Lose";
     for (let i = 0; i < options.length; i++) {
       options[i].disabled = true;
     }
     retry.style.display = "block";
-    retry.innerText = "HOLD TO RETRY";
+    retry.innerText = "RETRY";
   }
 }

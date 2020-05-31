@@ -96,13 +96,26 @@ h2 {
   outline: 0;
 }
 
-button {
-  transition: transform 0.1s;
-  transition-timing-function: cubic-bezier(0, 0, 0.04, 1.01);
+button:active {
+  /* animation: hit 0.15s ease-in-out 0 1 normal both; */
+  animation-name: hit;
+  animation-duration: 0.15s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
-button:active {
-  transform: scale(0.8);
+@keyframes hit {
+  0% {
+    transform: scale(1);
+  }
+
+  35% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* .option-button:active {
